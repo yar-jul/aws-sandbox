@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "aws-sandbox"
+version = "0.1.0"
+description = "A sandbox repo to try out AWS."
+authors = ["yar-jul"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "aws_sandbox"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
