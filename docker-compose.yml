@@ -6,4 +6,4 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - ${OUTER_PORT}:${PORT}
+      - ${OUTER_PORT}:${API_PORT}
