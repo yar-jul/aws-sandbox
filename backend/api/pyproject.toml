@@ -5,7 +5,7 @@ description = "A sandbox repo to try out AWS."
 authors = ["yar-jul"]
 license = "MIT License"
 readme = "README.md"
-packages = [{include = "aws_sandbox"}]
+packages = [{ include = "main.py", from = "src" }, { include = "settings.py", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.9"
